@@ -86,6 +86,11 @@ displayed if the 'eventbrite' field in the header is not set.
 </script>
 {% endif %}
 
+<h2>About the workshop</h2>
+
+This workshop provides an introduction to working with (survey) data for analysis and visualisation.
+We explore the possibilities and limitations of spreadsheet software,
+special software for cleaning tabular data and use the R programming language to create a reproducible analysis.
 
 <h2 id="general">General Information</h2>
 
@@ -102,7 +107,7 @@ href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
 helpers, and supporters who share a mission to teach foundational computational and data science
 skills to researchers.
-<p align="center">
+<p class="text-center">
   <em>
   <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
 Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
@@ -204,7 +209,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  They should have a few <a href="#setup">specific software packages</a> installed (listed below).
 </p>
 
 {% comment %}
@@ -250,8 +255,8 @@ Modify or remove the block below if you plan to record the workshop.
 <p id="recordings">
   <strong>Workshop Recordings:</strong>
   Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-  To foster a positive online learning environment, we strongly recommend that participants join in real time.
-  As a result, workshop recordings are not recommended and may not be available to learners.
+  To foster a positive learning environment, we strongly recommend that participants join in real time.
+  As a result, this workshop will not be recorded.
 </p>
 {% comment %}
 CONTACT EMAIL ADDRESS
