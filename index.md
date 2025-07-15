@@ -54,7 +54,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2>About the workshop</h2>
 
-This workshop provides an introduction to working with (survey) data for analysis and visualisation.
+This workshop provides a hands-on introduction to working with (survey) data for analysis and visualisation.
 We explore the possibilities and limitations of spreadsheet software,
 special software for cleaning tabular data and use the R programming language to create a reproducible analysis.
 
@@ -100,6 +100,8 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
+<p>This workshop is open to researchers and staff of Leiden University, TU Delft and Erasmus University Rotterdam.</p>
 
 {% comment %}
 LOCATION
@@ -171,7 +173,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few <a href="#setup">specific software packages</a> installed (listed below).
+  They should have a few <a href="#setup">specific software packages installed and data downloaded</a> (listed below).
 </p>
 
 {% comment %}
@@ -350,7 +352,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+  To participate in this
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -359,8 +361,14 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
+  you will need access to a spreadsheet application, OpenRefine and RStudio with R.
+  The setup instructions for these applications can be found at <a href="https://datacarpentry.org/socialsci-workshop/setup-r-workshop.html">
+    the workshop overview site</a>.
   In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  You also need to download <a href="https://github.com/4TUResearchData-Carpentries/data_carpentry_learners/raw/refs/heads/main/extra_resources/data/data-carpentry.zip">the data needed for the workshop</a>.
+  Make sure to unzip the file to a location that you can find again.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
