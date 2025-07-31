@@ -16,10 +16,9 @@ enddate: 2025-10-09
 instructor:
   - "Bjørn Bartholdy"
   - "Ben Companjen"
+  - "Kristina Hettne"
   - "Peter Verhaar"
 helper:
-  - "Elviss Dvinskis"
-  - "Sara Shoghi Javan"
   - "Narmin Rzayeva"
 email: ["cds@library.leidenuniv.nl"]  # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
