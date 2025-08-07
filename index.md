@@ -52,6 +52,8 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2>About the workshop</h2>
 
+**Registration opens late August.**
+
 This workshop provides a hands-on introduction to working with (survey) data for analysis and visualisation.
 We explore the possibilities and limitations of spreadsheet software,
 special software for cleaning tabular data and use the R programming language to create a reproducible analysis.
